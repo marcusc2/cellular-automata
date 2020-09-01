@@ -55,7 +55,7 @@ public class CellularAutomaton extends Application {
 		layout.setAlignment(Pos.CENTER);
 		initialScene = new Scene(layout, NUMBER_OF_COLUMNS * SIZE_OF_RECTANGLE, NUMBER_OF_ROWS *SIZE_OF_RECTANGLE);
 		
-		window.setTitle("Cellular Automata");
+		window.setTitle("Cellular Automaton");
 		window.setScene(initialScene);
 		window.show(); 
 	}
